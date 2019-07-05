@@ -1,0 +1,5 @@
+Possibly change layout for IPv4Masks UI to 6  radio buttons containing: 128, 192, 224, 240, 248, 252 for options instead of input.
+
+Implement scoring system
+
+implement more questions (IPv6)

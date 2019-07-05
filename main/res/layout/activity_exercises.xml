@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Tutorials_and_Activities.ExercisesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ClassExBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="OpenClassExercise"
+            android:text="IPv4 Classes exercise" />
+
+        <Button
+            android:id="@+id/MaskExBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="OpenIPMaskExercise"
+            android:text="IPv4 Subnet Masks exercise" />
+
+        <Button
+            android:id="@+id/BinToDecBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="openBinToDec"
+            android:text="Binary to decimal Exercise" />
+
+        <Button
+            android:id="@+id/DecToBinBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="openDecToBin"
+            android:text="Decimal to binary Exercise" />
+
+        <Button
+            android:id="@+id/AndingBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="openBinaryAnding"
+            android:text="Binary Anding Exercise" />
+
+        <Button
+            android:id="@+id/CustomSubnetBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="openSubnetExerice"
+            android:text="Custom Subnet Exercise" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

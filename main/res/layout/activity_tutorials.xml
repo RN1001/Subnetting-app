@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Tutorials_and_Activities.TutorialsActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/IPv4Class"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:onClick="NotImplemented"
+                android:text="Ipv4 classes Tutorial"
+                app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+                tools:layout_editor_absoluteX="40dp" />
+
+            <Button
+                android:id="@+id/IPv4Masks"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:onClick="featureNotImplemented"
+                android:text="Subnet mask tutorial"
+                app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+                tools:layout_editor_absoluteX="40dp" />
+
+            <Button
+                android:id="@+id/BinToDec"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:onClick="NotImplemented"
+                android:text="Decimal to binary conversion Tutorial"
+                app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+                tools:layout_editor_absoluteX="40dp" />
+
+            <Button
+                android:id="@+id/DecToBin"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:onClick="NotImplemented"
+                android:text="Binary To decimal conversion tutorial"
+                app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+                tools:layout_editor_absoluteX="40dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

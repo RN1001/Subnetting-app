@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SubnettingApp</string>
+
+    <!-- Question strings -->
+    <string name="Question1"> Can you identify the class of this IP address: %1$s? </string>
+    <string name="Question2"> With the subnet mask\n%1$s, what is the next octet with %2$d bits borrowed? </string>
+    <string name="Question3"> What is the binary sequence for the decimal number: %1$d?</string>
+    <string name="Question4"> What is the decimal number for this binary sequence: %1$s?</string>
+    <string name="Question5"> Find which network the host portion of this address belongs to; by using ANDING with binary sequence compared a subnet mask. </string>
+    <string name="Question6"> <b>Problem: </b> \nNumber of needed hosts: %1$d.\nNetwork address: %2$s </string>
+    <string name="Question7"> <b>Problem: </b> \nNumber of needed subnets: %1$d.\nNumber of needed usable hosts: %2$d.\nNetwork address: 192.168.1.0 </string>
+
+    <!-- misc strings -->
+    <string name="Tutorials"> Tutorials </string>
+    <string name="ClassExercise"> Class \n Exercise </string>
+    <string name="IncorrectAns"> Incorrect answer, please try again </string>
+    <string name="MainActText"> Please tap tutorials to learn areas of IPv4 and IPv6 subnetting, tap exercises to test what you have learn\'t. </string>
+
+    <!-- used with the Anding exercise -->
+    <string name="value"> Decimal: %1$d, Binary: %2$s </string>
+
+    <string name="Answers"> Address Result: %1$s\n Default mask result: %2$s\n Custom mask result: %3$s\n Total subnets result: %4$s\n Total hosts result: %5$s\n Usable hosts result: %6$s\n Bits borrowed result: %7$s\n  </string>
+    <string name="title_activity_option">OptionActivity</string>
+    <string name="title_home">Tutorials</string>
+    <string name="title_dashboard">Exercises</string>
+
+
+
+</resources>
